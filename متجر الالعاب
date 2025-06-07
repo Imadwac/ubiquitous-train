@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>موقع تحميل الألعاب</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #fff;
+    }
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ffcc00;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .game {
+      background-color: #2a2a2a;
+      border-radius: 12px;
+      margin: 15px;
+      width: 300px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+      transition: transform 0.2s;
+    }
+    .game:hover {
+      transform: scale(1.05);
+    }
+    .game img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .game .info {
+      padding: 15px;
+    }
+    .game h2 {
+      font-size: 1.4em;
+      margin: 0 0 10px;
+    }
+    .game p {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+    .download {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #ff5733;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #222;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>موقع تحميل الألعاب المجانية والمدفوعة</h1>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">ألعاب مجانية</a>
+    <a href="#">ألعاب مدفوعة</a>
+    <a href="#">اتصل بنا</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- PUBG -->
+    <div class="game">
+      <img src="https://cdn.wccftech.com/wp-content/uploads/2022/01/PUBG-Free-To-Play.jpg" alt="PUBG">
+      <div class="info">
+        <h2>PUBG</h2>
+        <p>لعبة قتال باتل رويال شهيرة.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- Free Fire -->
+    <div class="game">
+      <img src="https://images.indianexpress.com/2021/08/Free-Fire.jpg" alt="Free Fire">
+      <div class="info">
+        <h2>Free Fire</h2>
+        <p>لعبة أكشن سريعة وخفيفة للهواتف.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- Fortnite -->
+    <div class="game">
+      <img src="https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fchapter-3-season-1-flip-your-world%2FBR03_S03_EGS_Launcher_Blade_1920x1080-1920x1080-0cf3c9d3b5d2.jpg" alt="Fortnite">
+      <div class="info">
+        <h2>Fortnite</h2>
+        <p>لعبة باتل رويال بإبداع وتصميمات مجنونة.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- Apex Legends -->
+    <div class="game">
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg" alt="Apex Legends">
+      <div class="info">
+        <h2>Apex Legends</h2>
+        <p>أكشن جماعي برسومات واقعية.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- GTA V -->
+    <div class="game">
+      <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_GrandTheftAutoV_RockstarGames_S1_2560x1440-1400b8c5400ec2cfdbcb8b684fa6c26e" alt="GTA V">
+      <div class="info">
+        <h2>GTA V</h2>
+        <p>اللعبة المفتوحة الأكثر شهرة.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- FIFA 23 -->
+    <div class="game">
+      <img src="https://cdn2.unrealengine.com/fifa-23-key-art-1920x1080-8f0b31592f97.jpg" alt="FIFA 23">
+      <div class="info">
+        <h2>FIFA 23</h2>
+        <p>محاكاة كرة قدم برسوم خرافية.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- Delta Force -->
+    <div class="game">
+      <img src="https://cdn.mobygames.com/covers/7200000/7284874-delta-force-windows-front-cover.jpg" alt="Delta Force">
+      <div class="info">
+        <h2>Delta Force</h2>
+        <p>كلاسيكية المهمات العسكرية القديمة.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+    <!-- Call of Duty -->
+    <div class="game">
+      <img src="https://cdn2.unrealengine.com/call-of-duty-modern-warfare-ii-2022-keyart-1920x1080-3d0826db8a0a.jpg" alt="Call of Duty">
+      <div class="info">
+        <h2>Call of Duty</h2>
+        <p>لعبة حرب عالمية ذات جودة عالية.</p>
+        <a class="download" href="#">تحميل</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 موقع تحميل الألعاب | جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
+
